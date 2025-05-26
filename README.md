@@ -59,8 +59,3 @@ Then visit: `http://127.0.0.1:8000`
 **Hardik Verma**  
 GitHub: [@erHardikVerma](https://github.com/erHardikVerma)
 
----
-
-## 🧠 License
-
-This project is open-source and free to use for learning and demonstration purposes.
