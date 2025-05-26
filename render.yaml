@@ -1,9 +1,11 @@
 services:
   - type: web
     name: django-todo-app
-    env: python
+    env: "python"
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn taskproject.wsgi:application"
+    startCommand: |
+      python manage.py migrate &&
+      gunicorn taskproject.wsgi:application
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: taskproject.settings
