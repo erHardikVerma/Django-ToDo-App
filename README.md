@@ -33,3 +33,22 @@ env\Scripts\activate   # On Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+## 📡 API Endpoints
+
+| Method | URL                         | Description        |
+|--------|-----------------------------|--------------------|
+| GET    | `/api/`                     | API Overview       |
+| GET    | `/api/task-list/`           | Get all tasks      |
+| GET    | `/api/task-detail/<id>/`    | Get single task    |
+| POST   | `/api/task-create/`         | Create task        |
+| POST   | `/api/task-update/<id>/`    | Update task        |
+| DELETE | `/api/task-delete/<id>/`    | Delete task        |
+
+---
+
+## ✍️ Author
+
+**Hardik Verma**  
+GitHub: [@erHardikVerma](https://github.com/erHardikVerma)
+
